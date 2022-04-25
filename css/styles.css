@@ -221,7 +221,6 @@ body {
   padding-bottom: 94px;
 }
 .about-doing {
-  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -243,7 +242,9 @@ body {
   background-image: url('/images/Section-bg.png');
 }
 .command-text {
-  margin-bottom: 50px;
+  margin: 0;
+  padding-top: 93px;
+  padding-bottom: 50px;
   font-weight: 700;
   text-align: center;
   color: var(--theme-text-accent);
@@ -288,10 +289,11 @@ body {
   align-items: baseline;
 }
 .footer {
-  background-color: var(--theme-bgr-field);
+  max-width: 1600px;
+  background-image: url(/images/Footer-bg.jpg);
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: auto;
+  margin-top: 94px;
 }
 .address {
   color: var(--theme-accent);
