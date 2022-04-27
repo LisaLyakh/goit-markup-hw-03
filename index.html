@@ -14,7 +14,7 @@
 </head>
 <body>
 <header class="header">
-  <div class="container">
+  <div class="container nav-header-container">
     <nav class="nav-header">
       <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
       <ul class="navigation">
@@ -22,11 +22,11 @@
         <li class="navigation-list"><a href="./portfolio.html" class="navigation">Портфолио</a></li>
         <li class="navigation-list"><a href="" class="navigation">Контакты</a></li>
       </ul>
-      <ul class="link-flex">
-        <li class="link-email"><a href="mailto:info@devstudio.com" class="link">info@example.com</a></li>
-        <li class="link-tel"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
     </nav>
+    <ul class="link-flex">
+      <li class="item"><a href="mailto:info@devstudio.com" class="link-email">info@example.com</a></li>
+      <li class="item"><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+    </ul>
   </div>
 </header>
   <main>
@@ -36,7 +36,7 @@
        <button class="button">Заказать услугу</button>
       </div>
     </section>
-    <section class="benefits">
+    <section class="benefits section">
       <div class="container">
        <h2 class="class">Наши преимущества</h2>
        <ul class="benefits-list">
@@ -61,7 +61,7 @@
        </ul>
       </div>
     </section>
-    <section class="doing">
+    <section class="doing section">
       <div class="container">
        <h2 class="about-doing">Чем мы занимаемся</h2>
        <ul class="doing-img">
@@ -71,7 +71,7 @@
        </ul>
       </div>
     </section>
-    <section class="command">
+    <section class="command section">
       <div class="container">
        <h2 class="command-text">Наша команда</h4>
         <ul class="employees">
@@ -100,15 +100,16 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container">
-     <a href="/index.html" class="logo-footer"><span class="web">Web</span>Studio</a>
-     <address>
-       <ul>
-         <li><a href="https://bit.ly/3pXMvUd" class="address" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-         <li><a href="mailto:info@devstudio.com" class="address-link">info@example.com</a></li>
-         <li><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a></li>
-       </ul>
-     </address>
+    <div class="container footer-list">
+      <a href="/index.html" class="logo-footer"><span class="web">Web</span>Studio</a>
+      <address>
+        <ul class="address-footer">
+          <li class="link-footer"><a href="https://bit.ly/3pXMvUd" class="address" target="_blank"
+              rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <li class="link-footer"><a href="mailto:info@devstudio.com" class="address-link">info@example.com</a></li>
+          <li class="link-footer"><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
     </div>
   </footer>
 </body>
