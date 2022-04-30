@@ -77,9 +77,6 @@ img {
   line-height: 1.19;
   text-decoration: none;
 }
-.footer-list {
-  margin-right: 70px;
-}
 .link-footer {
   margin-right: 10px;
   margin-bottom: 9px;
@@ -355,7 +352,9 @@ img {
 }
 .content-box {
   padding: 20px 24px;
-  border: 1px solid var(--theme-accent);
+  border-left: 1px solid var(--theme-accent);
+  border-bottom: 1px solid var(--theme-accent);
+  border-width: 1px solid var(--theme-accent);
 }
 .text {
   margin: 0;
